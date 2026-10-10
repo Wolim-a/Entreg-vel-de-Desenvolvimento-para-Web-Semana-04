@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entregavel 04</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+    #lista li { cursor: pointer; margin: 4px 0; }
+    .destaque { color: #b45309; font-weight: bold; }
+    .feito { text-decoration: line-through; color: #888; }
+    input, button { padding: 6px 10px; margin: 4px 0; }
+  </style>
+</head>
+<body>
+  <h1 id="titulo">Título original</h1>
+
+  <p class="texto">Primeiro parágrafo de exemplo.</p>
+  <p class="texto">Segundo parágrafo de exemplo.</p>
+  <p class="texto">Terceiro parágrafo de exemplo.</p>
+
+  <button id="botao">Clique aqui</button>
+
+  <div>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" placeholder="Digite seu nome">
+  </div>
+
+  <h2>Lista</h2>
+  <ul id="lista">
+    <li>Item HTML 1</li>
+    <li>Item HTML 2</li>
+    <li>Item HTML 3</li>
+  </ul>
+
+  <form id="formulario">
+    <input type="text" id="tarefa" placeholder="Nova tarefa">
+    <button type="submit">Adicionar</button>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+</html>
